@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Circe", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #ff6347;
+
+    background-color: #000000;
+    background-position: top left;
+;
+}
+
+a {
+    text-decoration: none;
+}
+/*a:hover,*/
+/*a:focus {*/
+/*    text-decoration: underline;*/
+/*    text-decoration: tomato;*/
+/*}*/
+.main-navigation {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+
+    background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation{
+    list-style: none;
+}
+
+.site-navigation a{
+    color: #ffffff;
+    text-decoration: blue;
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+    text-decoration: underline;
+    /*text-decoration: tomato;*/
+    background-color: green;
+}
+
+
