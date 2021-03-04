@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Circe", Arial, sans-serif;
+    font-family: "Circe", sans-serif;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    color: #ff6347;
+    color: white;
+
 
     background-color: #000000;
     background-position: top left;
@@ -29,6 +30,15 @@ a {
 
     background-color: #000000;
 }
+/*.user-navigation {*/
+/*    font-size: 16px;*/
+/*    line-height: 22px;*/
+/*    font-style: normal;*/
+/*    text-align: center;*/
+
+/*    background-color: #000000;*/
+/*}*/
+
 
 .site-navigation,
 .user-navigation{
@@ -47,4 +57,35 @@ a {
     background-color: green;
 }
 
+.arrow{
+    width: 16px;
+    height: 16px;
+    border: 1px;
+    solid-color: white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main-header {
+    background-image: url("../img/photo.jpg");
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 102px;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+}
+
+.element-invisible {
+    outline: 0;
+    text-indent: -9999em;
+}
 
