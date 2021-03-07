@@ -126,6 +126,7 @@ a {
     padding-left: 40px;
     margin-right: 15px;
     margin-bottom: 15px;
+    grid-area: post-5;
 }
 
 .calendar h3{
@@ -152,6 +153,7 @@ a {
     padding-top: 30px;
     margin-right: 15px;
     margin-top: 15px;
+    grid-area: post-7;
 }
 
 .online-application h3{
@@ -181,6 +183,7 @@ a {
     padding-top: 30px;
     margin-left: 15px;
     margin-bottom: 15px;
+    grid-area: post-6;
 }
 
 .address a{
@@ -216,6 +219,7 @@ a {
     padding-top: 30px;
     margin-left: 15px;
     margin-left: 15px;
+    grid-area: post-8;
 }
 
 .complex-plan h3{
@@ -240,16 +244,45 @@ a {
 
 
 .tales{
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
+
+    /*width: 1112px;*/
+    /*height: 224+353-45=530;*/
+    /*align-items: flex-start;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
     /*height: 100%;*/
     padding: 0;
     margin: 0;
     /*margin-top: 100px;*/
     width: 600px;
     height: 400px;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-template-areas: "post-1 post-1 post-1 post-1 post-2 post-2 post-2 post-2 post-2 post-2"
+                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"
+                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"
+                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9"
+                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9";
+    grid-auto-rows: 100px 100px 100px 300px 300px;
+    grid-auto-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+}
+
+.post-1 {
+    grid-area: post-1;
+}
+.post-2 {
+    grid-area: post-2;
+}
+.post-3 {
+    grid-area: post-3;
+}
+.post-4 {
+    grid-area: post-4;
+}
+.post-5 {
+    grid-area: post-5;
 }
 
 
