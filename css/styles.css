@@ -29,28 +29,24 @@ h3{
 }
 
 .main-navigation {
-    width: 1920px;
     height: 90px;
     font-size: 16px;
     line-height: 22px;
     font-style: normal;
-    /*text-align: center;*/
+
     border-bottom: 1px solid white;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    /*padding: 0;*/
     margin: 0;
 }
 
 .main-header-logo{
     width: 176px;
     height: 24px;
-    /*margin-top: 0px;*/
-    /*margin-left: 180px;*/
-    /*margin-right: 265px;*/
+
 }
 
 .nav-flex{
@@ -75,29 +71,6 @@ h3{
     list-style: none;
 }
 
-.main-header{
-    width: 1920px;
-    height: 800px;
-}
-
-.site-navigation{
-    display: flex;
-    width: 1920px;
-    height: 58px;
-}
-
-
-
-
-
-/*.globus-icon{*/
-/*    margin-right: 11px;*/
-/*    margin-left: 70px;*/
-/*}*/
-
-/*.language{*/
-/*    margin-right: 180px;*/
-/*}*/
 
 .main-navigation a{
     color: #ffffff;
@@ -187,7 +160,6 @@ h3{
     height: 54px;
     margin: 0;
     padding: 0;
-    /*margin-left: 40px;*/
 }
 
 .complex-plan{
@@ -196,8 +168,6 @@ h3{
     background: #F6404F;
     padding-left: 40px;
     padding-top: 30px;
-    /*margin-left: 15px;*/
-    /*margin-left: 15px;*/
 
 }
 
@@ -270,5 +240,4 @@ h3{
     height: 100px;
     width: 100px;
     background-color: red;
-
 }
