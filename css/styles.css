@@ -208,12 +208,11 @@ h3 {
 
 
 .main-header {
-
     height: 800px;
+
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
 
-    
     display: flex;
     flex-direction: column;
 
@@ -290,8 +289,43 @@ h3 {
     color: red;
 }
 
+.news{
+    min-height: 649px;
+    background-color: #FAF3E3;
+    color: black;
+    padding-top: 70px;
+}
+.news a{
+    color: black;
+}
 
+.news-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
 
+}
+.news-img{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.news-box{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    max-width: 530px;
+}
+.news-text{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
 .element-invisible {
     outline: 0;
     text-indent: -9999em;
