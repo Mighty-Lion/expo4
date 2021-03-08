@@ -213,6 +213,7 @@ h3 {
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
 
+    
     display: flex;
     flex-direction: column;
 
