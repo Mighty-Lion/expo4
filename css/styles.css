@@ -56,10 +56,12 @@ h3{
     justify-content: space-around ;
     align-items: center;
     flex-direction: row;
+
+    min-width: 700px;
 }
 .nav-icons{
     width: 230px;
-
+    min-width: 230px;
     display: flex;
     justify-content: space-around ;
     align-items: center;
