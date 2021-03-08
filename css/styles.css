@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 h1 {
     font-size: 64px;
     font-weight: 700;
@@ -24,7 +25,7 @@ h1 {
     line-height: 102px;
 }
 
-h3{
+h3 {
     font-size: 21px;
     font-weight: 500;
     font-style: normal;
@@ -47,38 +48,46 @@ h3{
     max-width: 1920px;
 }
 
-.main-header-logo{
+.main-header-logo {
     width: 176px;
     height: 24px;
 
 }
 
-.nav-flex{
+.nav-flex {
     width: 600px;
 
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
 
     min-width: 500px;
 }
-.nav-icons{
+
+.nav-icons {
     width: 230px;
     min-width: 230px;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
 }
 
 .site-navigation,
-.user-navigation{
+.user-navigation {
     list-style: none;
 }
 
+.user-navigation h3 {
+    font-size: 30px;
+}
 
-.main-navigation a{
+.user-navigation li {
+    font-size: 16px;
+}
+
+.main-navigation a {
     color: #ffffff;
     text-decoration: blue;
 }
@@ -89,7 +98,7 @@ h3{
     background-color: green;
 }
 
-.arrow{
+.arrow {
     width: 16px;
     height: 16px;
     border: 1px;
@@ -101,7 +110,7 @@ h3{
 }
 
 
-.calendar{
+.calendar {
     width: 215px;
     height: 118px;
     background: #2378FC;
@@ -112,7 +121,7 @@ h3{
 
 }
 
-.calendar h3{
+.calendar h3 {
     width: 127px;
     height: 54px;
     margin: 0;
@@ -120,12 +129,12 @@ h3{
 
 }
 
-.calendar p{
+.calendar p {
     width: 102px;
     height: 19px;
 }
 
-.online-application{
+.online-application {
     width: 215px;
     height: 145px;
     background: #FFC41E;
@@ -136,7 +145,7 @@ h3{
 
 }
 
-.online-application h3{
+.online-application h3 {
     width: 160px;
     height: 81px;
     margin: 0;
@@ -144,13 +153,13 @@ h3{
 
 }
 
-.online-application p{
+.online-application p {
     width: 102px;
     height: 19px;
 
 }
 
-.address{
+.address {
     width: 215px;
     height: 118px;
     background: #30BCC9;
@@ -161,14 +170,14 @@ h3{
 
 }
 
-.address h3{
+.address h3 {
     width: 175px;
     height: 54px;
     margin: 0;
     padding: 0;
 }
 
-.complex-plan{
+.complex-plan {
     width: 215px;
     height: 145px;
     background: #F6404F;
@@ -177,19 +186,19 @@ h3{
 
 }
 
-.complex-plan h3{
+.complex-plan h3 {
     width: 175px;
     height: 81px;
     margin: 0;
     padding: 0;
 }
 
-.complex-plan p{
+.complex-plan p {
     width: 102px;
     height: 19px;
 }
 
-.tales-container{
+.tales-container {
 
     display: grid;
     grid-template-columns: 255px 255px;
@@ -210,7 +219,7 @@ h3{
 
 }
 
-.grid-container{
+.grid-container {
     margin-top: 200px;
     margin-bottom: 0;
     margin-right: auto;
@@ -226,21 +235,14 @@ h3{
 
 }
 
-.grid-h1{
+.grid-h1 {
     width: 420px;
     height: 74px;
     margin: 0;
 }
 
 
-.element-invisible {
-    outline: 0;
-    text-indent: -9999em;
-    padding: 0;
-    margin: 0;
-}
-
-.whois{
+.whois {
     display: flex;
     height: 426px;
     background-color: #2378FC;
@@ -249,19 +251,47 @@ h3{
 
 }
 
-.for-organizers{
+.for-organizers {
     display: flex;
     justify-content: space-around;
-    /*align-items: center ;*/
-
 }
 
-.for-organizers li{
+.for-organizers li {
     margin-bottom: 20px;
 }
 
-.element{
-    height: 100px;
-    width: 100px;
-    background-color: red;
+.activity {
+
+    height: 984px;
+    background-color: #FFC41E;
+    padding-top: 150px;
+    align-items: center;
+    /*flex-direction: column;*/
+    /*max-height: 984px;*/
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activity-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+}
+.activity-box a{
+    color: red;
+}
+
+
+
+.element-invisible {
+    outline: 0;
+    text-indent: -9999em;
+    padding: 0;
+    margin: 0;
 }
