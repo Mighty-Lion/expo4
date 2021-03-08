@@ -8,7 +8,7 @@ body {
     color: white;
     background-color: #000000;
     background-position: top left;
-;
+
 }
 
 a {
@@ -29,16 +29,19 @@ h3{
 }
 
 .main-navigation {
+    width: 1920px;
+    height: 90px;
     font-size: 16px;
     line-height: 22px;
     font-style: normal;
     /*text-align: center;*/
+    border-bottom: 1px solid white;
 
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid white;
-    display: flex;
-    padding: 0;
+
+    /*padding: 0;*/
     margin: 0;
 }
 
@@ -46,10 +49,26 @@ h3{
     width: 176px;
     height: 24px;
     /*margin-top: 0px;*/
-    margin-left: 180px;
-    margin-right: 265px;
+    /*margin-left: 180px;*/
+    /*margin-right: 265px;*/
 }
 
+.nav-flex{
+    width: 700px;
+
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-icons{
+    width: 230px;
+
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: row;
+}
 
 .site-navigation,
 .user-navigation{
@@ -67,22 +86,18 @@ h3{
     height: 58px;
 }
 
-.site-navigation li{
-    margin-right: 47px;
-    height: 22px;
-    margin-top: 19px;
-}
 
 
 
-.globus-icon{
-    margin-right: 11px;
-    margin-left: 70px;
-}
 
-.language{
-    margin-right: 180px;
-}
+/*.globus-icon{*/
+/*    margin-right: 11px;*/
+/*    margin-left: 70px;*/
+/*}*/
+
+/*.language{*/
+/*    margin-right: 180px;*/
+/*}*/
 
 .main-navigation a{
     color: #ffffff;
@@ -215,7 +230,7 @@ h3{
 
 .grid-container{
     margin-top: 190px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
     display: grid;
