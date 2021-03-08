@@ -8,11 +8,14 @@ body {
     color: white;
     background-color: #000000;
     background-position: top left;
+    margin: 0 auto;
+    max-width: 1920px;
 
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 h1 {
     font-size: 64px;
@@ -203,7 +206,8 @@ h3{
 
     display: flex;
     flex-direction: column;
-    max-width: 1920px;
+
+
 }
 
 .grid-container{
@@ -236,14 +240,24 @@ h3{
     margin: 0;
 }
 
-.grid{
-    width: 900px;
-    display: grid;
+.whois{
+    display: flex;
+    height: 426px;
+    background-color: #2378FC;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    grid-template-columns: auto auto;
-    margin: 0 auto;
-    grid-gap: 50px;
+
+}
+
+.for-organizers{
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center ;*/
+
+}
+
+.for-organizers li{
+    margin-bottom: 20px;
 }
 
 .element{
