@@ -323,7 +323,7 @@ h3 {
 .news-text{
     display: flex;
     align-items: start;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column-reverse;
 }
 .element-invisible {
