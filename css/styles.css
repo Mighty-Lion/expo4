@@ -118,15 +118,15 @@ a {
     width: 215px;
     height: 118px;
     background: #2378FC;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     margin: 0;
     padding: 0;
     padding-top: 30px;
     padding-left: 40px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    grid-area: post-5;
+    /*margin-right: 15px;*/
+    /*margin-bottom: 15px;*/
+    grid-area: calendar-grid;
 }
 
 .calendar h3{
@@ -151,9 +151,9 @@ a {
     padding: 0;
     padding-left: 40px;
     padding-top: 30px;
-    margin-right: 15px;
-    margin-top: 15px;
-    grid-area: post-7;
+    /*margin-right: 15px;*/
+    /*margin-top: 15px;*/
+    grid-area: online-application-grid;
 }
 
 .online-application h3{
@@ -175,41 +175,29 @@ a {
     width: 215px;
     height: 118px;
     background: #30BCC9;
-    /*display: flex;*/
-    /*flex-direction: column;*/
     padding: 0;
-    /*padding-top: 30px;*/
+    margin: 0;
     padding-left: 40px;
     padding-top: 30px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    grid-area: post-6;
+    grid-area: adress-grid;
 }
 
-.address a{
+.address h3{
     width: 175px;
     height: 54px;
     margin: 0;
     padding: 0;
-
-    font-size: 21px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 27px;
-
-    color: white;
-
     /*margin-left: 40px;*/
 }
 
-.address p{
-    width: 102px;
-    height: 19px;
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
-    /*margin-left: 40px;*/
-}
+/*.address p{*/
+/*    width: 102px;*/
+/*    height: 19px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    padding-top: 10px;*/
+/*    !*margin-left: 40px;*!*/
+/*}*/
 
 .complex-plan{
     width: 215px;
@@ -217,9 +205,9 @@ a {
     background: #F6404F;
     padding-left: 40px;
     padding-top: 30px;
-    margin-left: 15px;
-    margin-left: 15px;
-    grid-area: post-8;
+    /*margin-left: 15px;*/
+    /*margin-left: 15px;*/
+    grid-area: complex-plan-grid;
 }
 
 .complex-plan h3{
@@ -258,33 +246,49 @@ a {
     height: 400px;
 }
 
-.grid-conteiner{
+/*.grid-conteiner{*/
+/*    display: grid;*/
+/*    grid-template-areas: "post-1 post-1 post-1 post-1 post-2 post-2 post-2 post-2 post-2 post-2"*/
+/*                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"*/
+/*                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"*/
+/*                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9"*/
+/*                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9";*/
+/*    grid-auto-rows: 100px 100px 100px 300px 300px;*/
+/*    grid-auto-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;*/
+/*}*/
+
+/*.post-1 {*/
+/*    grid-area: post-1;*/
+/*}*/
+/*.post-2 {*/
+/*    grid-area: post-2;*/
+/*}*/
+/*.post-3 {*/
+/*    grid-area: post-3;*/
+/*}*/
+/*.post-4 {*/
+/*    grid-area: post-4;*/
+/*}*/
+/*.post-5 {*/
+/*    grid-area: post-5;*/
+/*}*/
+
+.tales-conteiner{
+    width: 600px;
+    height: 520px;
+    margin: 0;
+    padding: 0;
     display: grid;
-    grid-template-areas: "post-1 post-1 post-1 post-1 post-2 post-2 post-2 post-2 post-2 post-2"
-                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"
-                         "post-3 post-3 post-3 post-3 post-4 post-5 post-5 post-6 post-6 post-9"
-                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9"
-                         "post-3 post-3 post-3 post-3 post-4 post-7 post-7 post-8 post-8 post-9";
-    grid-auto-rows: 100px 100px 100px 300px 300px;
-    grid-auto-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
-}
+    grid-template-areas: "calendar-grid  address-grid"
+                         "online-application-grid  complex-plan-grid";
 
-.post-1 {
-    grid-area: post-1;
+    /*grid-auto-columns: 255px 30px 255px ;*/
+    /*grid-auto-rows:    148px 30px 175px ;*/
+    /*grid-auto-columns: 300px 300px ;*/
+    /*grid-auto-rows:    300px 300px ;*/
+    grid-template-columns: 300px 300px;
+    grid-template-rows:    300px 300px;
 }
-.post-2 {
-    grid-area: post-2;
-}
-.post-3 {
-    grid-area: post-3;
-}
-.post-4 {
-    grid-area: post-4;
-}
-.post-5 {
-    grid-area: post-5;
-}
-
 
 
 .main-header {
@@ -305,10 +309,14 @@ h3{
     font-weight: 500;
     font-style: normal;
     line-height: 27px;
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 .element-invisible {
     outline: 0;
     text-indent: -9999em;
+    padding: 0;
+    margin: 0;
 }
 
