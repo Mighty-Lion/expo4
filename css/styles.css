@@ -14,6 +14,20 @@ body {
 a {
     text-decoration: none;
 }
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 102px;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+}
+
 .main-navigation {
     font-size: 16px;
     line-height: 22px;
@@ -101,7 +115,7 @@ a {
     padding: 0;
     padding-top: 30px;
     padding-left: 40px;
-    grid-area: calendar-grid;
+
 }
 
 .calendar h3{
@@ -125,7 +139,7 @@ a {
     padding: 0;
     padding-left: 40px;
     padding-top: 30px;
-    grid-area: online-application-grid;
+
 }
 
 .online-application h3{
@@ -150,7 +164,7 @@ a {
     margin: 0;
     padding-left: 40px;
     padding-top: 30px;
-    grid-area: adress-grid;
+
 }
 
 .address h3{
@@ -169,7 +183,7 @@ a {
     padding-top: 30px;
     /*margin-left: 15px;*/
     /*margin-left: 15px;*/
-    grid-area: complex-plan-grid;
+
 }
 
 .complex-plan h3{
@@ -184,17 +198,14 @@ a {
     height: 19px;
 }
 
-.tales-conteiner{
-    width: 600px;
-    height: 520px;
-    margin: 0;
-    padding: 0;
+.tales-container{
+    /*width: 540px;*/
     display: grid;
-    grid-template-areas: "calendar-grid  address-grid"
-                         "online-application-grid  complex-plan-grid";
-
-    grid-template-columns: 300px 300px;
-    grid-template-rows:    300px 300px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    grid-template-columns: 255px 255px;
+    margin: 0 auto;
+    grid-gap: 30px;
 }
 
 
@@ -202,21 +213,26 @@ a {
     background-image: url("../img/photo.jpg");
 }
 
-
-
-h1 {
-    font-size: 64px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 102px;
+.grid-container{
+    margin-top: 190px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-areas: "post-1 post-2"
+                         "post-3 post-4";
+    grid-template-columns: 400px 540px;
+    grid-gap: 30px;
+    align-items: start;
+    justify-content: center;
 }
 
-h3{
-    font-size: 21px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 27px;
+.grid-h1{
+    width: 420px;
+    height: 74px;
+    margin: 0;
 }
+
 
 .element-invisible {
     outline: 0;
@@ -225,3 +241,19 @@ h3{
     margin: 0;
 }
 
+.grid{
+    width: 900px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    grid-gap: 50px;
+}
+
+.element{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
