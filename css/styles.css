@@ -41,6 +41,7 @@ h3{
     align-items: center;
 
     margin: 0;
+    max-width: 1920px;
 }
 
 .main-header-logo{
@@ -195,10 +196,14 @@ h3{
 
 
 .main-header {
-    
+
     height: 800px;
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
 }
 
 .grid-container{
@@ -213,6 +218,8 @@ h3{
     grid-gap: 30px;
     align-items: start;
     justify-content: center;
+
+
 }
 
 .grid-h1{
