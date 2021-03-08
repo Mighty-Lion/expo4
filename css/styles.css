@@ -50,14 +50,14 @@ h3{
 }
 
 .nav-flex{
-    width: 700px;
+    width: 600px;
 
     display: flex;
     justify-content: space-around ;
     align-items: center;
     flex-direction: row;
 
-    min-width: 700px;
+    min-width: 500px;
 }
 .nav-icons{
     width: 230px;
@@ -186,10 +186,8 @@ h3{
 }
 
 .tales-container{
-    /*width: 540px;*/
+
     display: grid;
-    /*align-items: center;*/
-    /*justify-content: center;*/
     grid-template-columns: 255px 255px;
     margin: 0 auto;
     grid-gap: 30px;
@@ -197,11 +195,14 @@ h3{
 
 
 .main-header {
+    width: 1920px;
+    height: 800px;
     background-image: url("../img/photo.jpg");
+    background-repeat: no-repeat;
 }
 
 .grid-container{
-    margin-top: 190px;
+    margin-top: 200px;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
