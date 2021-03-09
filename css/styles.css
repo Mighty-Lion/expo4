@@ -360,9 +360,86 @@ h3 {
     margin: auto;
     margin-left: 20px;
 }
+
+.footer-box{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 649px;
+    /*flex-direction: ;*/
+    max-height: 1000px;
+    max-width: 1000px;
+}
+
+.footer-speaker{
+    display: flex;
+    /*align-items: start;*/
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+.footer-speaker ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+.footer-speaker h3 {
+    font-size: 21px;
+}
+.footer-paragraph {
+    max-width: 255px;
+}
+
+.footer-field{
+
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background: #A3D0C3;
+}
+
+
+.footer-field form{
+    display: flex;
+    margin: 0 ;
+    padding: 0;
+}
+.footer-field input {
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+}
+
+.footer-field button {
+    position: inherit;
+    top: 0;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #F6404F;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials-icons{
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+}
 .element-invisible {
     outline: 0;
     text-indent: -9999em;
     padding: 0;
     margin: 0;
+    width: 0;
+    height: 0;
 }
