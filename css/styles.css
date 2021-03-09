@@ -253,7 +253,8 @@ h3 {
 
 .for-organizers {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-width: 70%;
 }
 
 .for-organizers li {
