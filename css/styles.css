@@ -361,14 +361,22 @@ h3 {
     margin-left: 20px;
 }
 
+.footer-container{
+    height: 476px;
+    background-color: #5a5ae0;
+    padding-top: 100px;
+}
+
 .footer-box{
     display: flex;
-    align-items: start;
+    align-items: center;
+    margin: 0 auto;
     justify-content: space-between;
-    height: 649px;
+    max-height: 476px;
     /*flex-direction: ;*/
     max-height: 1000px;
-    max-width: 1000px;
+    max-width: 1200px;
+
 }
 
 .footer-speaker{
@@ -383,6 +391,9 @@ h3 {
     padding: 0;
     list-style: none;
     font-size: 14px;
+}
+.footer-speaker li{
+    margin-bottom: 10px;
 }
 .footer-speaker h3 {
     font-size: 21px;
@@ -424,6 +435,13 @@ h3 {
     border: none;
 }
 
+.application{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
 .socials{
     display: flex;
     flex-direction: column;
@@ -435,6 +453,7 @@ h3 {
     max-width: 200px;
     justify-content: space-between;
 }
+
 .element-invisible {
     outline: 0;
     text-indent: -9999em;
