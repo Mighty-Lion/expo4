@@ -79,12 +79,18 @@ h3 {
     list-style: none;
 }
 
-.user-navigation h3 {
-    font-size: 30px;
+.user-navigation{
+
 }
 
-.user-navigation li {
+.for-organizers ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
     font-size: 16px;
+}
+.user-navigation h3 {
+    font-size: 30px;
 }
 
 .main-navigation a {
@@ -150,13 +156,11 @@ h3 {
     height: 81px;
     margin: 0;
     padding: 0;
-
 }
 
 .online-application p {
     width: 102px;
     height: 19px;
-
 }
 
 .address {
@@ -167,7 +171,6 @@ h3 {
     margin: 0;
     padding-left: 40px;
     padding-top: 30px;
-
 }
 
 .address h3 {
@@ -199,7 +202,6 @@ h3 {
 }
 
 .tales-container {
-
     display: grid;
     grid-template-columns: 255px 255px;
     margin: 0 auto;
@@ -209,14 +211,10 @@ h3 {
 
 .main-header {
     height: 800px;
-
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
-
-
 }
 
 .grid-container {
@@ -231,8 +229,6 @@ h3 {
     grid-gap: 30px;
     align-items: start;
     justify-content: center;
-
-
 }
 
 .grid-h1 {
@@ -246,7 +242,7 @@ h3 {
     display: flex;
     height: 426px;
     background-color: #2378FC;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
@@ -262,15 +258,11 @@ h3 {
 }
 
 .activity {
-
     height: 984px;
     background-color: #FFC41E;
     padding-top: 150px;
     align-items: center;
-    /*flex-direction: column;*/
-    /*max-height: 984px;*/
     max-width: 1920px;
-
 }
 
 .box{
@@ -299,10 +291,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-    /*padding-top: 70px;*/
-
 }
 .news a{
     color: black;
@@ -334,9 +322,7 @@ h3 {
 
 .news-big-box {
     display: flex;
-
     justify-content: space-between;
-    /*max-width: 530px;*/
     flex-direction: column;
 }
 
@@ -374,7 +360,6 @@ h3 {
     margin: 0 auto;
     justify-content: space-between;
     max-height: 476px;
-    /*flex-direction: ;*/
     max-height: 1000px;
     max-width: 1200px;
 
@@ -382,8 +367,6 @@ h3 {
 
 .footer-speaker{
     display: flex;
-    /*align-items: start;*/
-    /*justify-content: space-between;*/
     flex-direction: column;
 }
 
