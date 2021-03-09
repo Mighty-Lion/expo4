@@ -268,6 +268,7 @@ h3 {
     align-items: center;
     /*flex-direction: column;*/
     /*max-height: 984px;*/
+    max-width: 1920px;
 
 }
 
@@ -275,6 +276,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 1px;
 }
 
 .activity-box {
@@ -290,10 +292,16 @@ h3 {
 }
 
 .news{
-    min-height: 649px;
+    height: 649px;
     background-color: #FAF3E3;
     color: black;
-    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    /*padding-top: 70px;*/
+
 }
 .news a{
     color: black;
@@ -303,28 +311,54 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-
+    max-width: 1000px;
+    margin: auto auto;
+    align-content: space-around;
 }
 .news-img{
     display: flex;
-    align-items: start;
-    justify-content: space-around;
     flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.news-img a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news-big-box {
+    display: flex;
+
+    justify-content: space-between;
+    /*max-width: 530px;*/
+    flex-direction: column;
+}
+
+.news-header{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .news-box{
     display: flex;
     align-items: start;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 530px;
+    min-height: 150px;
 }
 .news-text{
     display: flex;
     align-items: start;
     justify-content: space-between;
     flex-direction: column-reverse;
+    margin: auto;
+    margin-left: 20px;
 }
 .element-invisible {
     outline: 0;
