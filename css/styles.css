@@ -10,7 +10,7 @@ body {
     background-position: top left;
     margin: 0 auto;
     max-width: 1920px;
-    min-width: 900px;
+    min-width: 1100px;
 }
 
 a {
@@ -79,16 +79,14 @@ h3 {
     list-style: none;
 }
 
-.user-navigation{
 
-}
-
-.for-organizers ul{
+.for-organizers ul {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 16px;
 }
+
 .user-navigation h3 {
     font-size: 30px;
 }
@@ -215,6 +213,7 @@ h3 {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .grid-container {
@@ -257,38 +256,94 @@ h3 {
     margin-bottom: 20px;
 }
 
+
 .activity {
-
     background-color: #FFC41E;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /*align-items: center;*/
-    max-width: 1920px;
-    height: 984px;
+    padding: 1px;
 }
 
-.box{
+.container {
+    max-width: 1200px;
+    max-height: 984px;
+    margin: 0 auto;
+}
+
+.activity-title {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    margin: 1px;
+    margin: 0 0 58px 0;
+}
+
+.activity-container {
+
+}
+
+.activity-row {
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 0 0 79px 0;*/
+    margin: -15px -15px;
+    padding: 0 0 1px 0;
 }
 
 .activity-box {
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
-    max-width: 1300px;
-    margin: auto;
-    min-width: 1100px;
-}
-.activity-box a{
-    color: red;
+    padding: 15px 15px;
+    flex: 0 1 30%;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.news{
+.activity-item {
+
+}
+
+.item {
+
+}
+
+.item-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-img {
+    /*flex: 0 0 350px;*/
+    width: 350px;
+    height: 240px;
+}
+
+.item-date {
+    font-size: 14px;
+    color: #000000;
+    text-c
+}
+
+.item-body {
+    flex: 1 1 auto;
+}
+
+.item-title {
+
+}
+
+.item-text {
+    text-align: left;
+}
+
+.item-text a {
+    font-size: 21px;
+    color: #F6404F;
+}
+
+.item-text p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.news {
     height: 649px;
     background-color: #FAF3E3;
     color: black;
@@ -296,11 +351,12 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-.news a{
+
+.news a {
     color: black;
 }
 
-.news-container{
+.news-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -308,7 +364,8 @@ h3 {
     margin: auto auto;
     align-content: space-around;
 }
-.news-img{
+
+.news-img {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -318,7 +375,7 @@ h3 {
     min-width: 500px;
 }
 
-.news-img a{
+.news-img a {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -330,20 +387,21 @@ h3 {
     flex-direction: column;
 }
 
-.news-header{
+.news-header {
     display: flex;
     justify-content: space-between;
 
 }
 
-.news-box{
+.news-box {
     display: flex;
     align-items: start;
     justify-content: space-between;
     max-width: 530px;
     min-height: 150px;
 }
-.news-text{
+
+.news-text {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -352,13 +410,13 @@ h3 {
     margin-left: 20px;
 }
 
-.footer-container{
+.footer-container {
     height: 476px;
     background-color: #5a5ae0;
     padding-top: 100px;
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -369,28 +427,31 @@ h3 {
 
 }
 
-.footer-speaker{
+.footer-speaker {
     display: flex;
     flex-direction: column;
 }
 
-.footer-speaker ul{
+.footer-speaker ul {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 14px;
 }
-.footer-speaker li{
+
+.footer-speaker li {
     margin-bottom: 10px;
 }
+
 .footer-speaker h3 {
     font-size: 21px;
 }
+
 .footer-paragraph {
     max-width: 255px;
 }
 
-.footer-field{
+.footer-field {
 
     margin: 0;
     height: 40px;
@@ -399,11 +460,12 @@ h3 {
 }
 
 
-.footer-field form{
+.footer-field form {
     display: flex;
-    margin: 0 ;
+    margin: 0;
     padding: 0;
 }
+
 .footer-field input {
     width: 100%;
     border: none;
@@ -423,20 +485,20 @@ h3 {
     border: none;
 }
 
-.application{
+.application {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.socials-icons{
+.socials-icons {
     display: flex;
     max-width: 200px;
     justify-content: space-between;
