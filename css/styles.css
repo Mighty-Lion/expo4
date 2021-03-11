@@ -18,14 +18,14 @@ a {
     color: white;
 }
 
-h1 {
+ .h1 {
     font-size: 64px;
     font-weight: 700;
     font-style: normal;
     line-height: 102px;
-}
+ }
 
-h3 {
+.h3 {
     font-size: 21px;
     font-weight: 500;
     font-style: normal;
@@ -259,47 +259,50 @@ h3 {
 
 .activity {
     background-color: #FFC41E;
-    padding: 1px;
+    padding: 30px 0;
 }
 
 .container {
     max-width: 1200px;
-    max-height: 984px;
     margin: 0 auto;
+}
+
+.activity-container{
+    margin: 45px 0 34px 0;
 }
 
 .activity-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 0 58px 0;
+    margin-bottom: 40px ;
+}
+.activity-title h2{
+    margin: 0;
+    color: black;
+}
+.activity-title a{
+    color: black;
+
+
 }
 
-.activity-container {
-
+.black{
+    color: black;
 }
 
 .activity-row {
     display: flex;
     flex-wrap: wrap;
-    /*padding: 0 0 79px 0;*/
-    margin: -15px -15px;
-    padding: 0 0 1px 0;
+    margin:  0;
+    padding: 0;
+    justify-content: space-between;
 }
 
 .activity-box {
-    padding: 15px 15px;
-    flex: 0 1 30%;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.activity-item {
-
-}
-
-.item {
+    padding: 15px 0;
+    flex: 0 1 33.333%;
+    flex-direction: row;
+    max-width: 350px;
 
 }
 
@@ -309,38 +312,53 @@ h3 {
 }
 
 .item-img {
-    /*flex: 0 0 350px;*/
     width: 350px;
     height: 240px;
+    padding-bottom: 10px ;
 }
 
 .item-date {
     font-size: 14px;
     color: #000000;
-    text-c
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.item-date p {
+    margin: 0;
+    padding: 0;
 }
 
 .item-body {
-    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 0 auto;
+    margin-top: 5px;
+}
+.item-body a{
+    color: red;
+}
+.item-body h3{
+    font-size: 21px;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
-.item-title {
-
+.item-body p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000000;
 }
 
-.item-text {
-    text-align: left;
-}
 
 .item-text a {
     font-size: 21px;
     color: #F6404F;
 }
 
-.item-text p {
-    font-size: 16px;
-    color: #000000;
-}
+
 
 
 .news {
