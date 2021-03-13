@@ -74,21 +74,30 @@ a {
     flex-direction: row;
 }
 
-.site-navigation,
-.user-navigation {
+.language-icon::before{
+    content: url("../img/Globe.png");
+}
+
+.whois-navigation {
     list-style: none;
 }
 
 
-.for-organizers ul {
+.whois-navigation ul {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 16px;
+
 }
 
-.user-navigation h3 {
-    font-size: 30px;
+.whois-navigation li {
+    margin-bottom: 10px;
+}
+
+.whois-navigation h3 {
+    font-size: 20px;
+    margin: 0 0 30px 0;
 }
 
 .main-navigation a {
@@ -97,20 +106,17 @@ a {
 }
 
 .site-navigation a:hover,
-.user-navigation a:hover {
+.whois-navigation a:hover {
     text-decoration: underline;
     background-color: green;
 }
 
-.arrow {
-    width: 16px;
-    height: 16px;
-    border: 1px;
-    solid-color: white;
-    box-sizing: border-box;
-    color: white;
-    padding: 0;
-    margin: 0;
+
+
+.arrow-a-black::after {
+    content: url('../img/Arrow 1.png');
+    margin: 0 0 0 15px;
+    filter: invert(1);
 }
 
 
@@ -236,24 +242,30 @@ a {
     margin: 0;
 }
 
+.arrow-a-white::after{
+    content: url('../img/Arrow 1.png');
+    margin: 0 0 0 10px;
+}
+
 
 .whois {
     display: flex;
-    height: 426px;
+
     background-color: #2378FC;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
-.for-organizers {
+.whois-container {
     display: flex;
     justify-content: space-between;
-    min-width: 70%;
+    align-items: flex-start;
+    padding: 25px 0 25px 0;
+    margin:  50px 0 50px 0;
 }
 
-.for-organizers li {
-    margin-bottom: 20px;
+.whois-container ul {
+    padding: 0 10px;
 }
 
 
@@ -265,6 +277,10 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.static{
+    width: 1200px;
 }
 
 .activity-container{
@@ -280,11 +296,12 @@ a {
 .activity-title h2{
     margin: 0;
     color: black;
+    font-size: 30px;
+    text-decoration: none;
 }
-.activity-title a{
+.activity-title a:nth-child(2){
     color: black;
-
-
+    text-decoration: underline;
 }
 
 .black{
@@ -295,7 +312,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin:  0;
-    padding: 0;
+    /*padding: 0 10px;*/
     justify-content: space-between;
 }
 
@@ -409,7 +426,7 @@ a {
 .news-header {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .news-box {
@@ -439,11 +456,9 @@ a {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    padding: 0 10px;
     justify-content: space-between;
-    max-height: 476px;
-    max-height: 1000px;
     max-width: 1200px;
-
 }
 
 .footer-speaker {
@@ -471,7 +486,6 @@ a {
 }
 
 .footer-field {
-
     margin: 0;
     height: 40px;
     width: 100%;
@@ -491,10 +505,9 @@ a {
     margin: 0 auto;
 }
 
+
+
 .footer-field button {
-    position: inherit;
-    top: 0;
-    right: 0px;
     width: 40px;
     height: 40px;
     border: none;
