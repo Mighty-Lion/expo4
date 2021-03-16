@@ -381,12 +381,7 @@ a {
 
 
 .news {
-    height: 649px;
     background-color: #FAF3E3;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .news a {
@@ -395,33 +390,16 @@ a {
 
 .news-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1000px;
-    margin: auto auto;
-    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 .news-img {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    align-content: space-between;
-    min-height: 500px;
-    min-width: 500px;
-}
-
-.news-img a {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    max-width: 445px;
+    max-height: 215px;
 }
 
 .news-big-box {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+
 }
 
 .news-header {
@@ -430,21 +408,27 @@ a {
     align-items: center;
 }
 
+.news-header h2 {
+    margin: 0;
+}
+
 .news-box {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
-    max-width: 530px;
-    min-height: 150px;
+
 }
 
 .news-text {
     display: flex;
-    align-items: start;
+    flex-direction: column;
     justify-content: space-between;
-    flex-direction: column-reverse;
-    margin: auto;
-    margin-left: 20px;
+}
+
+.news-text b {
+    color: black;
+}
+
+.news-text h3 {
+    margin: 0;
 }
 
 .footer-container {
