@@ -18,12 +18,7 @@ a {
     color: white;
 }
 
-.h1 {
-    font-size: 64px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 102px;
-}
+
 
 .h3 {
     font-size: 21px;
@@ -230,8 +225,24 @@ a {
     grid-template-columns: 460px 540px;
     grid-row-gap: 35px;
     grid-column-gap: 135px;
-    justify-content: start;
+}
 
+.title-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 50%;
+    align-items: center;
+    margin: auto;
+
+}
+
+.title-h1 {
+    font-size: 34px;
+    grid-area: post-1;
+}
+
+.title-h1 h1{
+    margin: 0;
 }
 
 .title-p-one{
@@ -246,10 +257,7 @@ a {
 
 
 
-.grid-h1 {
-    margin: auto;
-    font-size: 64px;
-}
+
 
 .arrow-a-white::after {
     content: url('../img/Arrow 1.png');
