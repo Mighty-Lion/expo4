@@ -18,12 +18,12 @@ a {
     color: white;
 }
 
- .h1 {
+.h1 {
     font-size: 64px;
     font-weight: 700;
     font-style: normal;
     line-height: 102px;
- }
+}
 
 .h3 {
     font-size: 21px;
@@ -74,7 +74,7 @@ a {
     flex-direction: row;
 }
 
-.language-icon::before{
+.language-icon::before {
     content: url("../img/Globe.png");
     margin-right: 11px;
 }
@@ -111,7 +111,6 @@ a {
     text-decoration: underline;
     background-color: green;
 }
-
 
 
 .arrow-a-black::after {
@@ -209,7 +208,7 @@ a {
 .tales-container {
     display: grid;
     grid-template-columns: 255px 255px;
-    margin: 0 auto;
+    margin: 0;
     grid-gap: 30px;
 }
 
@@ -218,32 +217,41 @@ a {
     height: 800px;
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .grid-container {
-    margin-top: 200px;
-    margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 220px;
+    margin-bottom: auto;
+    margin-right: 0;
+    margin-left: 0;
     display: grid;
     grid-template-areas: "post-1 post-2"
                          "post-3 post-4";
-    grid-template-columns: 400px 540px;
-    grid-gap: 30px;
-    align-items: start;
-    justify-content: center;
+    grid-template-columns: 460px 540px;
+    grid-row-gap: 35px;
+    grid-column-gap: 135px;
+    justify-content: start;
+
 }
 
-.grid-h1 {
-    width: 420px;
-    height: 74px;
+.title-p-one{
+    font-size: 24px;
+    line-height: 140%;
     margin: 0;
 }
 
-.arrow-a-white::after{
+.title-p-two{
+    font-size: 16px;
+}
+
+
+
+.grid-h1 {
+    margin: auto;
+    font-size: 64px;
+}
+
+.arrow-a-white::after {
     content: url('../img/Arrow 1.png');
     margin: 0 0 0 10px;
 }
@@ -251,10 +259,7 @@ a {
 
 .whois {
     display: flex;
-
     background-color: #2378FC;
-
-
 }
 
 .whois-container {
@@ -262,7 +267,7 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px 10px 20px 10px;
-    margin:  50px 0 50px 0;
+    margin: 50px 0 50px 0;
 }
 
 .whois-container ul {
@@ -276,15 +281,15 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
-.static{
+.static {
     width: 1200px;
 }
 
-.activity-container{
+.activity-container {
     margin: 25px 0 14px 0;
     padding: 20px 20px 20px 20px;
 }
@@ -292,28 +297,29 @@ a {
 .activity-title {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px ;
+    margin-bottom: 40px;
 }
-.activity-title h2{
+
+.activity-title h2 {
     margin: 0;
     color: black;
     font-size: 30px;
     text-decoration: none;
 }
-.activity-title a:nth-child(2){
+
+.activity-title a:nth-child(2) {
     color: black;
     text-decoration: underline;
 }
 
-.black{
+.black {
     color: black;
 }
 
 .activity-row {
     display: flex;
     flex-wrap: wrap;
-    margin:  0;
-    /*padding: 0 10px;*/
+    margin: 0;
     justify-content: space-between;
 }
 
@@ -333,7 +339,7 @@ a {
 .item-img {
     width: 350px;
     height: 240px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
 }
 
 .item-date {
@@ -355,16 +361,18 @@ a {
     flex: 1 0 auto;
     margin-top: 5px;
 }
-.item-body a{
+
+.item-body a {
     color: red;
 }
-.item-body h3{
+
+.item-body h3 {
     font-size: 21px;
     margin: 0;
     padding-bottom: 5px;
 }
 
-.item-body p{
+.item-body p {
     margin: 0;
     padding-top: 5px;
     font-size: 16px;
@@ -378,12 +386,10 @@ a {
 }
 
 
-
-
 .news {
     background-color: #FAF3E3;
     padding: 55px 0 55px 0;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 .news a {
@@ -393,23 +399,22 @@ a {
 .news-container {
     display: flex;
     margin: 0;
-
-    padding: 10px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
 .news-img {
-    padding: 5px;
     display: flex;
     flex-direction: column;
 }
 
-.news-img-parking{
+.news-img-parking {
     content: url("../img/parking.jpg");
     width: 445px;
 }
-.news-img-expo2020{
+
+.news-img-expo2020 {
     content: url("../img/expo2020.jpg");
     margin-top: 60px;
     width: 445px;
@@ -420,7 +425,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     max-width: 530px;
-    padding: 10px;
+    height: 490px;
 }
 
 .news-header {
@@ -437,10 +442,9 @@ a {
     display: flex;
 }
 
-.news-img-flex{
+.news-img-flex {
     display: flex;
 }
-
 
 
 .news-text {
@@ -451,7 +455,7 @@ a {
 }
 
 .news-text b {
-    color: black;
+    color: red;
 }
 
 .news-text h3 {
@@ -516,7 +520,6 @@ a {
     border: none;
     margin: 0 auto;
 }
-
 
 
 .footer-field button {
