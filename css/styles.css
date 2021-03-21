@@ -534,7 +534,9 @@ a {
     margin: 0 auto;
     outline: none;
 }
-
+.footer-field input:focus{
+    outline: 1px;
+}
 
 
 
