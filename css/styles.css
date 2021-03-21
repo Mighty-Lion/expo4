@@ -231,18 +231,33 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex: 0 1 50%;
-    align-items: center;
-    margin: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 210px auto auto auto;
+    padding: 20px;
 
 }
 
+.title{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 10px 0 0 10px;
+}
+
+
 .title-h1 {
-    font-size: 34px;
-    grid-area: post-1;
+    font-size: 64px;
+
 }
 
 .title-h1 h1{
     margin: 0;
+    height: 56px;
+}
+
+.title-p{
+    margin-top: 35px;
 }
 
 .title-p-one{
