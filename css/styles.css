@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     padding: 0;
     font-family: "Circe", sans-serif;
     font-size: 14px;
@@ -8,7 +7,7 @@ body {
     color: white;
     background-color: #000000;
     background-position: top left;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 1920px;
     min-width: 1100px;
 }
@@ -120,9 +119,7 @@ a {
     height: 118px;
     background: #2378FC;
     margin: 0;
-    padding: 0;
-    padding-top: 30px;
-    padding-left: 40px;
+    padding: 30px 0 0 40px;
 
 }
 
@@ -144,9 +141,7 @@ a {
     height: 145px;
     background: #FFC41E;
     margin: 0;
-    padding: 0;
-    padding-left: 40px;
-    padding-top: 30px;
+    padding: 30px 0 0 40px;
 
 }
 
@@ -166,10 +161,8 @@ a {
     width: 215px;
     height: 118px;
     background: #30BCC9;
-    padding: 0;
     margin: 0;
-    padding-left: 40px;
-    padding-top: 30px;
+    padding: 30px 0 0 40px;
 }
 
 .address h3 {
@@ -215,10 +208,7 @@ a {
 }
 
 .grid-container {
-    margin-top: 220px;
-    margin-bottom: auto;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 220px 0 auto;
     display: grid;
     grid-template-areas: "post-1 post-2"
                          "post-3 post-4";
@@ -552,7 +542,6 @@ a {
     background: #F6404F;
     padding: 0;
     cursor: pointer;
-    border: none;
 }
 
 .application {
