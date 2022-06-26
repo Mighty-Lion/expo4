@@ -190,8 +190,6 @@ a {
     height: 800px;
     margin: 0 auto;
     background-image: url("../img/photo.jpg");
-    /*background-position: center;*/
-    /*background-size: 100%;*/
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
