@@ -191,7 +191,8 @@ a {
     margin: 0 auto;
     background-image: url("../img/photo.jpg");
     /*background-position: center;*/
-    background-size: 100%;
+    /*background-size: 100%;*/
+    background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
 }
