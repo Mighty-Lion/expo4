@@ -441,12 +441,13 @@ a {
 .news-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 30px;
 }
 
 .news-text b {
     color: red;
+    margin: 0 0 14px 0;
 }
 
 .news-text h3 {
