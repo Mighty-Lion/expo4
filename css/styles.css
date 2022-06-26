@@ -16,8 +16,6 @@ a {
     color: white;
 }
 
-
-
 .h3 {
     font-size: 21px;
     font-weight: 500;
@@ -71,7 +69,6 @@ a {
     list-style: none;
 }
 
-
 .whois-navigation ul {
     margin: 0;
     padding: 0;
@@ -100,13 +97,11 @@ a {
     background-color: green;
 }
 
-
 .arrow-a-black::after {
     content: url('../img/Arrow 1.png');
     margin: 0 0 0 15px;
     filter: invert(1);
 }
-
 
 .calendar {
     width: 215px;
@@ -191,12 +186,12 @@ a {
     grid-gap: 30px;
 }
 
-
 .main-header {
     height: 800px;
     margin: 0 auto;
     background-image: url("../img/photo.jpg");
-    background-position: center;
+    /*background-position: center;*/
+    background-size: 100%;
     background-repeat: no-repeat;
     justify-content: center;
 }
