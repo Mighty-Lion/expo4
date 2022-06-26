@@ -441,7 +441,7 @@ a {
 .news-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 30px;
 }
 
