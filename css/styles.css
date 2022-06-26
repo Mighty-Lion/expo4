@@ -5,10 +5,9 @@ body {
     line-height: 19px;
     font-weight: 400;
     color: white;
-    background-color: #000000;
     background-position: top left;
     margin: 0 auto 0 auto;
-    max-width: 1920px;
+    max-width: 100%;
     min-width: 1100px;
 }
 
@@ -31,14 +30,11 @@ a {
     font-size: 16px;
     line-height: 22px;
     font-style: normal;
-
     border-bottom: 1px solid white;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    margin: 0;
+    margin: 0 auto;
     max-width: 1920px;
 }
 
@@ -50,12 +46,10 @@ a {
 
 .nav-flex {
     width: 600px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
     min-width: 500px;
 }
 
@@ -128,7 +122,6 @@ a {
     height: 54px;
     margin: 0;
     padding: 0;
-
 }
 
 .calendar p {
@@ -142,7 +135,6 @@ a {
     background: #FFC41E;
     margin: 0;
     padding: 30px 0 0 40px;
-
 }
 
 .online-application h3 {
@@ -178,7 +170,6 @@ a {
     background: #F6404F;
     padding-left: 40px;
     padding-top: 30px;
-
 }
 
 .complex-plan h3 {
@@ -203,8 +194,11 @@ a {
 
 .main-header {
     height: 800px;
+    margin: 0 auto;
     background-image: url("../img/photo.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    justify-content: center;
 }
 
 .grid-container {
@@ -260,15 +254,10 @@ a {
     font-size: 16px;
 }
 
-
-
-
-
 .arrow-a-white::after {
     content: url('../img/Arrow 1.png');
     margin: 0 0 0 10px;
 }
-
 
 .whois {
     display: flex;
@@ -286,7 +275,6 @@ a {
 .whois-container ul {
     padding: 0 10px;
 }
-
 
 .activity {
     background-color: #FFC41E;
@@ -392,12 +380,10 @@ a {
     color: #000000;
 }
 
-
 .item-text a {
     font-size: 21px;
     color: #F6404F;
 }
-
 
 .news {
     background-color: #FAF3E3;
@@ -458,7 +444,6 @@ a {
 .news-img-flex {
     display: flex;
 }
-
 
 .news-text {
     display: flex;
@@ -521,7 +506,6 @@ a {
     background: #A3D0C3;
 }
 
-
 .footer-field form {
     display: flex;
     margin: 0;
@@ -537,8 +521,6 @@ a {
 .footer-field input:focus{
     outline: 1px;
 }
-
-
 
 .footer-field button {
     width: 40px;
