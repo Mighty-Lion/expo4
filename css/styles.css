@@ -98,6 +98,10 @@ a {
     background-color: green;
 }
 
+.arrow-a-black {
+    text-decoration-line: underline;
+}
+
 .arrow-a-black::after {
     content: url('../img/Arrow 1.png');
     margin: 0 0 0 15px;
